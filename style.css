@@ -1,0 +1,87 @@
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 180px 650px auto;
+    grid-template-rows: 50px auto;
+}
+
+header {
+    grid-column-start: 3;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.app-icon {
+    height: 30px;
+    width: 30px;
+    opacity: 0.5;
+    padding-right: 15px;
+}
+
+.app-icon:hover {
+    opacity: 1;
+}
+
+.sign-in {
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    cursor: default;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #f2f2f2;
+    line-height: 28px;
+    background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    padding: 0 12px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    height: 28px;
+    width: 85px;
+    padding: 4 28 0 30;
+}
+
+.search-bar {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    padding-top: 20px;
+}
+
+.search {
+    height: 37px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: rgba(0,0,0,.87);
+    border: none;
+}
+
+.magnifying-glass {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    padding-right: 13px;
+}
+
+.options {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    height: 60px;
+}
+
+.all {
+    display: inline-block;
+    margin-top: 11px;
+    padding: 16px 12px 12px 10px;
+}
