@@ -85,3 +85,23 @@ header {
     margin-top: 11px;
     padding: 16px 12px 12px 10px;
 }
+
+.settings {
+    display: inline-block;
+    margin-top: 11px;
+    padding: 16px 12px 12px 10px;
+    text-align: end;
+}
+
+.nav-section-svg {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    fill: #5f6368;
+    margin-right: 5px;
+}
+
+a {
+    font-size: 13px;
+    text-decoration: none;
+}
